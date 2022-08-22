@@ -1,0 +1,316 @@
+.header {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.header h1 {
+
+    text-align: left;
+}
+
+.header h1 a {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.header h1 a span {
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Inspiration', cursive;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li {
+    padding: 30px;
+    border-bottom: solid 1px #af7057b2;
+}
+
+.navbar li:hover {
+    background-color: rgba(59, 26, 13, 0.996);
+    border-radius: 30px;
+}
+
+.navbar h1 {
+    padding-top: 20px;
+    margin-left: 130px;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar h1:hover {
+    color: rgba(59, 26, 13, 0.996);
+}
+
+.navbar {
+    background-color: #884c35fe;
+    color: white;
+    width: 250px;
+    height: 100vh;
+    padding-left: 10px;
+    top: 0;
+    font-family: 'Cardo', cursive;
+    text-align: left;
+    display: flex;
+    position: fixed;
+    left: -100%;
+    transition: 850ms;
+    position: fixed;
+}
+
+.navbar.shows {
+    left: 0;
+    width: 200px;
+    transition: 350ms;
+}
+
+.side-bar {
+    padding-top: 19px;
+}
+
+.side-bar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 90%;
+}
+
+.first-h1 h1 {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Amita', cursive;
+    font-size: 50px;
+    padding-top: 100px;
+    color: rgb(37, 23, 5);
+    background-image: url('https://images.pexels.com/photos/1249586/pexels-photo-1249586.jpeg?auto=compress&cs=tinysrgb&w=1600');
+}
+
+.first-h1 h1 h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 25%;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #d3a284;
+}
+
+.text-part {
+    margin-left: 30px;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 700px;
+    text-align: justify;
+    color: white;
+    font-family: 'Cardo';
+}
+
+.text-part span {
+    font-family: 'Inspiration';
+    font-size: 28px;
+}
+
+.options-in-daily-life {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.options-in-daily-life button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Amita';
+    font-size: large;
+    color: #60311efe;
+
+}
+
+.options-in-daily-life button:hover {
+    background-color: #884c35fe;
+    color: wheat;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-top: solid 4px rgba(128, 128, 128, 0.368);
+}
+
+.term-of-use {
+    margin: 50px;
+    margin-left: 60%;
+}
+
+.term-of-use h3 {
+    padding-bottom: 10px;
+}
+
+.term-of-use ul {
+    list-style-type: none;
+}
+
+.term-of-use li {
+    padding: 5px;
+}
+
+.socilas {
+    display: grid;
+    grid-template-rows: auto auto;
+    height: 70px;
+    margin-top: 50px;
+
+}
+
+.socilas li {
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.socilas img {
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.loop-challenges h2 {
+    text-align: center;
+    top: 50%;
+    font-size: 50px;
+    font-family: 'Amita';
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 96%);
+}
+
+.loop-challenges ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 40px;
+    height: 690px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 96%);
+}
+
+.loop-challenges li img {
+    width: 80%;
+    height: 550px;
+}
+
+.loop-challenges li h1 {
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+.loop-challenges li a {
+    text-decoration: none;
+    color: black;
+}
+
+.each-challenge {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.part-1 {
+    display: grid;
+    grid-auto-flow: row;
+    margin: 30px;
+
+
+}
+
+.each-challenge h1 {
+    font-size: 40px;
+    font-family: 'Cardo';
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.each-challenge img {
+    width: 99%;
+
+}
+
+.part-2 {
+
+    height: 50%;
+    margin-top: 25%;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.part-2 p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.part-2 h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.part-2 img {
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.college-firstpart {
+    margin: 50px;
+    margin-left: 25%;
+    width: 50%;
+    height: 260px;
+    padding: 30px;
+    background: rgb(220, 221, 71);
+    background: linear-gradient(0deg, rgba(220, 221, 71, 0.208018241476278) 8%, rgba(215, 45, 253, 0.23042720506171221) 100%);
+}
+
+.college-firstpart h1 {
+    text-align: center;
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.college-firstpart h3 {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.help-for-college h1 {
+    text-align: center;
+}
+
+.help-for-college span {
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Inspiration', cursive;
+}

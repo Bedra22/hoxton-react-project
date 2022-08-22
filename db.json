@@ -1,0 +1,49 @@
+{
+    "challenges": [
+        {
+            "id": 1,
+            "image": "https://www.blogilates.com/wp-content/uploads/2020/05/7daychallenges-may-glutes-new-02.png",
+            "title": "The 7 Day Glute Challenge",
+            "content": "Hey guys! It is time…for the 7 Day Glute Challenge!!! That’s right – we’re gonna commit to working hard for another 7 days, but this time we’re building and lifting our glutes. Just like the 7 Day Ab Challenge, all you need is 20-30 minutes a day. THAT’S IT. We’re already on a roll, so why stop now? Keep that time carved out each day to work out and let’s keep getting stronger 💪 You in?! I thought so. Let’s get started with the #7DayGluteChallenge. Here’s the graphic that you’re going to want to print out:",
+            "purpose": "To lift and round out your glutes in 7 days!",
+            "length": " 7 day",
+            "Commitment": "20-30 min",
+            "icon": "https://cdn-icons.flaticon.com/png/128/2871/premium/2871250.png?token=exp=1661210260~hmac=33566e9ff47a3f7605859130df768c72"
+        },
+        {
+            "id": 2,
+            "image": "https://www.blogilates.com/wp-content/uploads/2022/06/200-ab-challenge-10-scaled.jpg",
+            "title": "The 200 Ab Challenge",
+            "content": "Hey guys!I know this is kinda last minute, but last week I asked if you wanted a challenge annnnd the consensus was a resounding YES! Actually, I knew you’d probably be all for it (DUH) but I needed your enthusiasm to get my wheels turning! What did I come up with? 🔥 The 200 Ab Challenge 🔥 Over the next 20 days, we’re gonna work on ab strength and leaning out the entire body. You ready?!",
+            "purpose": "To form Abs while engaing our whole body",
+            "length": "  20 days",
+            "Commitment": "We’re doing 200 reps every day: 100 reps of an ab move AND 100 reps of a cardio move. ",
+            "icon": "https://cdn-icons-png.flaticon.com/128/6381/6381903.png"
+        },
+        {
+            "id": 3,
+            "image": "https://i.pinimg.com/736x/0c/4f/86/0c4f860e87de366cc33e67ccab7b6086.jpg",
+            "title": " Hot Girl Sculpt",
+            "content": "Hey guys! Welcome to your #HotGirlSummerSculpt! This is your official 14-day guide. To build strength, to fuel your body, and to TRANSFORM in more ways than you might think. The work we put in together will sculpt your body on the outside, buuuuuut the work doesn’t stop there. This transformation is going to be about so much more than just fitness. It’s going to be about rediscovering and growing your confidence too! Because guess what? You are ALREADY a hot girl. And it’s time to let her shine.",
+            "purpose": "We’ll target different muscle groups each day, with one “rest” day where we do a Hot Girl Power Walk. ",
+            "length": " 14 days",
+            "Commitment": "You’ll be committing to 30 minutes of exercise every single day! And don’t worry, I have all the workouts ready to go for you!",
+            "icon": "https://cdn-icons-png.flaticon.com/128/8250/8250181.png"
+        }
+    ],
+    "college": [
+        {
+            "id": 1,
+            "title": "WHAT NOT TO BRING TO COLLEGE | COLLEGE PRODUCTS YOU DO NOT NEED",
+            "minihyrje": "You always hear about the things you do need but never what not to bring to college. Here are the top 10 things I never used and wish I didn't buy before moving to college.",
+            "image": "https://bysophialee.com/wp-content/uploads/what-NOT-to-bring-to-college-4-1024x780.png",
+            "paragraph1": "I was the girl that brought the cooking pan to college. I still can't believe I ACTUALLY thought I would cook in the dorm kitchen. It was one of those things that I was so stubborn about buying because I was convinced that I would use it all the time. That pan was just one example of something I brought to college that I never touched. There were many other things that I spent money on and I never used (honestly, still haven't even touched them to this day!).",
+            "paragraph2": "Make sure to check if your dorm room needs a microwave or not. A microwave is literally a saving grace in college. I needed to bring my own microwave freshman year and the dorm supplied a microwave sophomore year. Check your dorm website before you go just to make sure!",
+            "important": "WHAT NOT TO BRING TO COLLEGE:",
+            "paragraph3": "One of my biggest mistakes freshman year was paying Home Good's rent with the number of throw pillows I bought from them for my dorm room. I LOVE throw pillows. I loved them then and still love them now. However, my throw pillows and I went through a little bit of a rocky stage in my dorm room because I brought so many dang pillows and had nowhere to put them! After doing that for a semester, I now recommend you stick with two throw pillows on your bed (at max) and one or two on your futon. That's IT. You will regret having any more than that!",
+            "paragraph4": "Having a printer in college is a big pain in the butt. I never actually brought a printer to school but I had friends who did and always complained about it getting in the way.            It's almost guaranteed that your dorm will have printers available for you to use. I have never heard of a dorm room these days that doesn't have a printer available to the students living there. Another pro to not bringing a printer to school - printer ink can be expensive! Use the printing credits you receive as part of your tuition (you do pay for them after all ;).",
+            "paragraph5": "I am about to give you a secret/life-changing product: Downy Wrinkle Releaser. I just discovered this past year and can't believe I didn't know about it earlier! This little spray works SO well. All you do is spray it on clothes that are super wrinkly, pull it tight so the shirt doesn't show wrinkles anymore, and let go. The wrinkles will be GONE!  It is so cool!! My roommates and I went through every wrinkled shirt in my closet because we were so amazed it actually worked. It completely replaces a need for an iron or ironing board (and removes the risk of you putting a big burn hole in one of your favorite shirts ;).",
+            "paragraph6": "Like I said earlier in this post, I was 'one of those' that brought a pan to school thinking I would make full-on meals all the time.  Be realistic about what you are bringing to school. Me thinking I would find a way to the grocery store every week to buy chicken and other ingredients to make with that pan WITHOUT A CAR to even get me there was dumb and not very thought out. (This is obviously a different situation if you have a medical issue where you need to make your own food. If that's the case, you should definitely bring a pan and ignore all info in the previous two paragraphs 🙂 )"
+        }
+    ]
+}
