@@ -7,10 +7,9 @@ import { Hair } from './page/Hair'
 import { Beauty } from './page/Beauty'
 import { Travel } from './page/Travel'
 import { Fashion } from './page/Fashion'
-import { NavigationBar } from './components/NavigationBar'
-import { College } from './page/College'
 import { Footer } from './components/Footer'
 import { EachChallenge } from './page/EachChallenge'
+import { EachHairCare } from './page/EachHairCare'
 
 function App() {
 
@@ -21,8 +20,8 @@ function App() {
         <Route index element={<Navigate to='home' />} />
         <Route path='/home' element={<Home />} />
         <Route path='/home/:id' element={<EachChallenge />} />
-        <Route path='/college' element={<College />} />
         <Route path='/hair' element={<Hair />} />
+        <Route path='/hair/:id' element={<EachHairCare />} />
         <Route path='/beauty' element={<Beauty />} />
         <Route path='/travel' element={<Travel />} />
         <Route path='/fashion' element={<Fashion />} />

@@ -314,3 +314,150 @@
     font-size: 50px;
     font-family: 'Inspiration', cursive;
 }
+
+.hair-part-1 {
+    background-image: url('https://static.wixstatic.com/media/8ddfc54557334e96a2eac37ab491e1c5.jpg/v1/fill/w_1024,h_500,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/8ddfc54557334e96a2eac37ab491e1c5.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+    text-align: center;
+    font-family: 'Cardo';
+    font-size: 50px;
+    font-weight: 900;
+    color: #e7ad97fe;
+    padding-top: 10%;
+}
+
+.search-hair {
+    border-radius: 50px;
+    width: 660px;
+    background-color: rgba(255, 255, 255, 0.741);
+    margin-left: 27%;
+    margin-top: 4%;
+
+}
+
+.searching-hair {
+    width: 550px;
+    height: 60px;
+    border: transparent;
+    background-color: transparent;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.searching-hair :placeholder-shown {
+    font-size: 20px;
+}
+
+.search-hair button {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.677);
+}
+
+.search-hair button:hover {
+    background-color: rgba(255, 255, 255, 0.925);
+
+}
+
+.hair-loop {
+    width: 100%;
+}
+
+.hair-loop ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 10px;
+}
+
+.hair-loop li {
+    margin: 30px;
+    border: solid 3px #e7ad97fe;
+}
+
+.hair-loop li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hair-loop img {
+    padding: 30px;
+    width: 450px;
+    height: 400px;
+}
+
+.text-name {
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-left: 30px;
+    gap: 1rem;
+    padding-bottom: 10px
+}
+
+.text-name h4 {
+    text-decoration: underline;
+}
+
+.eachHair-part1 {
+    display: grid;
+    grid-template-columns: 400px auto;
+    gap: 3rem;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.eachHair-part1 h1 {
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    background-color: #f6eedfd1;
+    color: rgb(61, 38, 9);
+    padding-top: 80px;
+}
+
+.eachHair-part1 img {
+    width: 80%;
+    height: 750px
+}
+
+.eachHiar-content {
+    display: grid;
+    grid-auto-flow: row;
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 30px;
+
+}
+
+.eachparagraph {
+    width: 55%;
+    margin-left: 31%;
+}
+
+.eachparagraph h1 {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eachparagraph img {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.eachparagraph p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}

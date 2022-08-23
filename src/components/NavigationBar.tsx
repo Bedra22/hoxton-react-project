@@ -14,10 +14,6 @@ export function NavigationBar() {
                 <div className={sideBar ? 'navbar shows' : 'navbar'}>
                     <ul onClick={showSideBar}>
                         <h1>X</h1>
-
-                        <Link to='/college'  >
-                            <li>COLLEGE</li>
-                        </Link>
                         <Link to='/hair'  >
                             <li>HAIR</li>
                         </Link>

@@ -31,19 +31,95 @@
             "icon": "https://cdn-icons-png.flaticon.com/128/8250/8250181.png"
         }
     ],
-    "college": [
+    "hair": [
         {
             "id": 1,
-            "title": "WHAT NOT TO BRING TO COLLEGE | COLLEGE PRODUCTS YOU DO NOT NEED",
-            "minihyrje": "You always hear about the things you do need but never what not to bring to college. Here are the top 10 things I never used and wish I didn't buy before moving to college.",
-            "image": "https://bysophialee.com/wp-content/uploads/what-NOT-to-bring-to-college-4-1024x780.png",
-            "paragraph1": "I was the girl that brought the cooking pan to college. I still can't believe I ACTUALLY thought I would cook in the dorm kitchen. It was one of those things that I was so stubborn about buying because I was convinced that I would use it all the time. That pan was just one example of something I brought to college that I never touched. There were many other things that I spent money on and I never used (honestly, still haven't even touched them to this day!).",
-            "paragraph2": "Make sure to check if your dorm room needs a microwave or not. A microwave is literally a saving grace in college. I needed to bring my own microwave freshman year and the dorm supplied a microwave sophomore year. Check your dorm website before you go just to make sure!",
-            "important": "WHAT NOT TO BRING TO COLLEGE:",
-            "paragraph3": "One of my biggest mistakes freshman year was paying Home Good's rent with the number of throw pillows I bought from them for my dorm room. I LOVE throw pillows. I loved them then and still love them now. However, my throw pillows and I went through a little bit of a rocky stage in my dorm room because I brought so many dang pillows and had nowhere to put them! After doing that for a semester, I now recommend you stick with two throw pillows on your bed (at max) and one or two on your futon. That's IT. You will regret having any more than that!",
-            "paragraph4": "Having a printer in college is a big pain in the butt. I never actually brought a printer to school but I had friends who did and always complained about it getting in the way.            It's almost guaranteed that your dorm will have printers available for you to use. I have never heard of a dorm room these days that doesn't have a printer available to the students living there. Another pro to not bringing a printer to school - printer ink can be expensive! Use the printing credits you receive as part of your tuition (you do pay for them after all ;).",
-            "paragraph5": "I am about to give you a secret/life-changing product: Downy Wrinkle Releaser. I just discovered this past year and can't believe I didn't know about it earlier! This little spray works SO well. All you do is spray it on clothes that are super wrinkly, pull it tight so the shirt doesn't show wrinkles anymore, and let go. The wrinkles will be GONE!  It is so cool!! My roommates and I went through every wrinkled shirt in my closet because we were so amazed it actually worked. It completely replaces a need for an iron or ironing board (and removes the risk of you putting a big burn hole in one of your favorite shirts ;).",
-            "paragraph6": "Like I said earlier in this post, I was 'one of those' that brought a pan to school thinking I would make full-on meals all the time.  Be realistic about what you are bringing to school. Me thinking I would find a way to the grocery store every week to buy chicken and other ingredients to make with that pan WITHOUT A CAR to even get me there was dumb and not very thought out. (This is obviously a different situation if you have a medical issue where you need to make your own food. If that's the case, you should definitely bring a pan and ignore all info in the previous two paragraphs 🙂 )"
+            "title": "F.A.Q. // “Do I need to wash my hair before my hair appointment?”",
+            "image": "https://www.thesmallthingsblog.com/wp-content/uploads/2022/08/Clean-Beauty_Social-Squares_Styled-Stock_01237-1097x1536.jpg",
+            "paragraph1": "I recently had an appointment to have my hair colored and shared that I used a purifying shampoo the morning of my appointment. I received so many questions about why I did that in my DM’s on Instagram that I decided to break it all down here. 'I thought oily hair made the color stick better?'",
+            "paragraph2": "“My stylist always told me dirty hair was better for coloring?”",
+            "paragraph3": "“Why would you wash it if it’s just going to get washed at the salon?”",
+            "paragraph4": "Before I dive in, I feel like I need to remind you that you need to listen to your own stylist if he or she directs you otherwise. I am a professional with years of experience (even though I’m not behind the chair right now) and this is my opinion.",
+            "paragraph5": "If you are going to see your stylist for a haircut, it’s not necessary to wash your hair. The only case that could justify washing your hair is if it’s loaded up with dry shampoo or texture spray and it will be too challenging to brush out. In that case, it could be really helpful for you to wash it and brush it out yourself. If you are going to see your stylist for color, it’s better to arrive with clean, dry hair. The reason behind this is that it preps the hair to fully absorb whatever color service you are having done without the barrier of dry shampoo, texture powder, oil, etc. If your hair is covered in hair product (which is a chemical), how do you expect the hair color (also a chemical) to respond? In most cases, it’ll all work out fine, but arriving at your appointment with clean dry hair gives the color the greatest opportunity for success.",
+            "paragraph6": "Imagine painting on a canvas covered in dust, grime, and other junk. You could get the job done, but it may not be as pure as it would have been if the canvas was totally clean. So, if you’re able to wash your hair prior to getting it colored, even simply the night before, it’ll certainly help set your stylist and the color up for success. If you aren’t able, your stylist should know whether or not he or she needs to prep your hair with a wash or if it’s safe to simply apply the color directly to your hair.",
+            "paragraph7": "In order to avoid confusion, if you’re going in for JUST a haircut, it’s okay to skip washing prior to your appointment. Your stylist may prefer to cut your hair dry, or simply want to wash it themselves. Also, washing your hair and showing up to your appointment with wet hair will not lead to a lower price of the service either!"
+        },
+        {
+            "id": 2,
+            "title": "A Dressed Up Pony",
+            "image": "https://www.thesmallthingsblog.com/wp-content/uploads/2022/07/IMG_6079-1024x1536.jpg",
+            "paragraph1": "Let's face it. We all have days we don't want to wash our hair and wearing it down won't work, so we throw up it up into a ponytail. Instead of an ordinary pony, you've got to try this style.",
+            "paragraph2": "1. Part your hair from ear to ear, and clip the front part up.",
+            "paragraph3": "2. Put a ponytail in the bottom half of the hair.",
+            "paragraph4": "3. Release the clipped section, and with the hair parted where you choose, take one side and bring it over to the other side of the ponytail and under, pinning it underneath to secure it.",
+            "paragraph5": "4. Take the other side of hair and bring it over the ponytail and pin it underneath.",
+            "paragraph6": "5. Clean up any loose pieces under the ponytail by pinning in place.",
+            "paragraph7": "This style works best on medium-length hair, looks amazing and takes minutes to achieve!"
+        },
+        {
+            "id": 3,
+            "title": "Sun Protection for your Hair",
+            "image": "https://www.thesmallthingsblog.com/wp-content/uploads/2022/06/Graphics-Sun-09-2-1056x1536.jpg",
+            "paragraph1": "I feel like everyone knows by now how important SPF is for our skin, but I’m not so sure the same sun protection measures are being taken on our hair!",
+            "paragraph2": "Sun, pollution, humidity, salt water, chlorine, and anything else that comes with summertime activities, can all be rough on hair. I have to be extremely mindful of how I care for my hair in the summertime because I have a lot working against me.",
+            "paragraph3": "I heat style regularly, I wash often, I color my hair, I have well water, and we have a pool in the backyard. So if I don’t baby my hair in the summertime (frankly, year-round), it’ll simply break off at the ends.",
+            "paragraph4": "I always wash my hair after I get out of the pool. Sometimes immediately after, and other times it’ll be a few hours after depending on what we have going on. I typically apply a hair mask or at the very least I’ll add in a leave-in conditioner and let my hair air dry.",
+            "paragraph5": "But before all of this, before I get in the sun, I take a few steps to take care of my hair. More often than not I’ll wear a hat. And I just bought a few scarves on amazon to try this summer to cover my hair when I’m out by the pool. As far as hair products go, I love the Bumble and Bumble Hairdressers Invisible Oil UV protection line. I’ve been using the primer for months, and really love the hyaluronic acid leave-in treatment too. I also rounded up a few other UV protection hair products to pack in your pool or beach bag this summer and included a recommendation for what to apply afterward too."
+        },
+        {
+            "id": 4,
+            "title": "I Tested 3 Popular Dry Shampoo Sprays, and Here are My Thoughts",
+            "image": "https://images.pexels.com/photos/7440054/pexels-photo-7440054.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "paragraph1": "I have a lot of thoughts on dry shampoo, so buckle up. I like dry shampoo, I do, but I think a bit more education and awareness about it could help make the use of it better for hair and scalp health! As always, your personal hairstylist is the best option for discussing your scalp health, dry shampoo use, etc. since that person sees you regularly. I hope this post gives you a few tips, and you leave with a recommendation or two for dry shampoo!",
+            "paragraph2": "Dry shampoo is a really fantastic option for extending the life of your hairstyle to skip a wash day. Not only is this a time-saver, but it can save your hair from a bit of heat styling as well! There are so many different kinds, and it really takes a bit of trial and error to find a system that works for you. Dry shampoo can help soak up oil, leaving the hair both feeling and looking cleaner, as well as adding a little lift and texture to the roots of your hair. I’ve never loved dry shampoo. It’s FINE, but I’ve always leaned more towards making time for a wash and fresh style instead of trying to “fix” two-day-old hair. Call me old-fashioned, but it’s just what I preferred.",
+            "paragraph3": "I did discover a product that I really loved in the summer months a few years ago by Bumble and Bumble which was the perfect post-workout “dry” shampoo mist. I used quotation marks because it was a wet spray, but dang it really helped refresh my hair to a manageable level after a very, very sweaty workout. The Pret-a-Powder Post Workout Dry Shampoo mist was my go-to to spray on my sweaty hair, let it sit, and then blow dry on a day I wasn’t interested in styling my hair. Usually, it was in a ponytail anyway, but that product helped it look better. It does have a strong scent, so keep that in mind.  Over time, I would occasionally, and I mean occasionally, use dry shampoo, but I never felt super attached to it.",
+            "paragraph4": "I was at a hair appointment a few months ago and my stylist wondered out loud if I was burning my hair a bit through the use of heat, which was contributing to the darker blonde that would occur over time. I certainly use a lot of heat on my hair, but even with heat protection and deep conditioners and repairing treatments, the temperature of the tools can still dramatically affect your hair.",
+            "paragraph5": "Living Proof Dry Shampoo ($28) – it should shock no one that this was the clear winner for me. Living Proof has just absolutely nailed dry shampoo. It works, it makes my hair feel full and fresh, it’s got a light scent, and it didn’t cause my scalp to itch. I was so pleased with the volume that lasted all day from this dry shampoo. I know they have the Advanced Clean Dry Shampoo as well, which I haven’t tried yet but people seem to really love it.",
+            "paragraph6": "Amika Perk Up Dry Shampoo ($26) – this is a really nice option for someone who found Living Proof Dry Shampoo to be too intense/gritty. This feels like nothing in your hair, in the best way possible, but don’t expect it to add volume or lift.",
+            "paragraph7": "Batiste Dry Shampoo, Bare Fragrance (under $10) – this was another great option for a barely-there scent and lightweight finish. I got zero lift/volume from this product, so if you’re not looking for volume on day 2 or 3, and prefer a minimal scent, this would be a nice option!"
+        },
+        {
+            "id": 5,
+            "title": "Create curls with flat iron",
+            "image": "https://www.thesmallthingsblog.com/wp-content/uploads/2022/05/DSC_2405-1025x1536.jpg",
+            "paragraph1": "Soft Bends with a Flat Iron",
+            "paragraph2": "I feel very comfortable making waves with a curling iron, but I wanted to push myself out of my “autopilot” mode and create some soft, undone waves with the flat iron.",
+            "paragraph3": "I’ve been using GHD flat irons for years, both in the salon and at home, and while they don’t give you options to adjust heat, they are some of the fastest, smoothest, highest-performing irons out there.",
+            "paragraph4": "I used the new GHD Platinum+ iron for these waves (this is not a sponsored post, but the brand did gift me this iron). It’s fantastic. It has a top heat of 365 degrees, which is safe for most hair, and an auto-shutoff after 30 minutes. The beveled edge of the plates means it smooths through the hair effortlessly, which is essential for a “one and done” pass through the hair. Repeatedly ironing over a section of hair can cause damage, so if you’re able to get a smooth, straight effect (or a wave!) with one glide against the hair, that’s a sign of a great iron.",
+            "paragraph5": "In the video, I used the GHD Platinum+ iron, the Cricket Pro-35 comb, Virtue Healing Oil for the ends, and Amika Un.Done Volume and Matte Texture Spray for texture and grit. Prior to the start of the video, I used Bumble and Bumble Hairdresser’s Invisible Oil Ultra Rich Hyaluronic Treatment Lotion, as well as Aquage Uplifting Foam on my roots for lift.",
+            "paragraph6": "In my experience, this is one of those hairstyles that looks different every time you try it. Some days it’s softer waves, other days you’ll have a stronger bend. A lot depends on how you prep the hair, how quickly your iron flows through the sections, and what finishing products you use as well.",
+            "paragraph7": "If you are more of a curling iron person and are looking for curls to last all day, this tutorial should be a huge help for you!"
+        },
+        {
+            "id": 6,
+            "title": "Top Hair Color Trends of 2022",
+            "image": "https://images.pexels.com/photos/2748242/pexels-photo-2748242.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "paragraph1": "Playful colors are all the rage for this year's hair trends. We encourage our readers to not shy away from color, and instead be bold and experiment with a glossy, multidimensional hue! We’ve rounded up 24 of the hottest hair color trends for the year; some are subtle if you are looking for a natural look, and others are statement-making! Kick off the season with a fresh, new do by trying out one of the trends below.",
+            "main2": "1. Holographic Hair",
+            "image2": "http://static1.squarespace.com/static/57e49ceb37c5811bc0693612/5907ba965fd63bf24534cf3d/5907baa25fd63bf24534d106/1493678754717/holographichairuglytruth2.jpg?format=original",
+            "paragraph2": "Holographic hair resembles a CD when you hold it to the light and refracts a rainbow of blue, yellow, purple and green hues. To achieve this colorful mane you will need to start with a blonde base and work with a stylist that is experienced at blending multiple colors seamlessly. All that time in the salon chair is worth it to achieve this cool, futuristic look. We suggest rocking a fishtail ponytail to accentuate the mix of colors in your hair.",
+            "main3": "2. Rose Gold Hair",
+            "image3": "https://i.pinimg.com/originals/2f/c5/3a/2fc53aae03c7e87295bb00bd76e05725.jpg",
+            "paragraph3": "Rose gold hair has been all the rage, and rightfully so! This pink tinted hue looks great on blonde or brown hair. You can rock all over color, highlights or just dye the ends of your hair. If you have ombre from last season this is the perfect upgrade to light up your look and ensure you look radiant this summer.",
+            "main4": "3. Color Melting",
+            "image4": "https://i.pinimg.com/originals/c1/36/bf/c136bf79a4816003877e07769d39e1b6.jpg",
+            "paragraph4": "Color melting is when you combine multiple tones for a seamless hair color from your roots to tips. This fluid movement of colors is irresistible and would look glam with full, bouncy waves.",
+            "main5": "4. Fiery Red",
+            "image5": "https://images.pexels.com/photos/1918246/pexels-photo-1918246.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "paragraph5": "This vivacious copper color is beautiful and impactful! To keep your fiery red hue, make sure to use shampoo and conditioner specifically for color treated hair."
+        },
+        {
+            "id": 7,
+            "title": "Hair extantions",
+            "image": "https://images.pexels.com/photos/12551625/pexels-photo-12551625.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "main1": "HOW HAIR EXTENSIONS ARE MADE",
+            "paragraph1": "Human hair extensions are exactly what they sound like. They are made out of real, human hair from top to bottom, collected from a donor. Remy hair means all the cuticles (the outer layer of the hair) are intact, running in the same direction at the time of collection. This allows for almost no tangling and ensures that the extensions remain smooth and silky throughout their lifetime.  Synthetic hair, on the other hand, is made out of various synthetic, blended fibres, and contains no human hair. These fibres are usually very fine, plastic fibres that are manufactured to imitate real human hair.",
+            "main2": "LOOK & FEEL",
+            "paragraph2": "Both real and synthetic extensions come in many styles, colours, and different forms of application. The quality of synthetic fibres can vary, but they are generally stiff and move differently from human hair, so they don’t blend as well with your natural hair. They sometimes have a wiry or coarse feel to the touch. Real hair looks and feels real (because it is!) and therefore blends more naturally with your hair.  ",
+            "main3": "COLORING & STYLING",
+            "paragraph3": "Human hair extensions can be treated just like your own natural hair. You can straighten, curl, blow dry, color them, and apply hair products. With synthetic hair, you cannot color the hair as most dyes contain ammonia or bleach, which would destroy the synthetic hair. Additionally, you cannot style synthetic hair the same way as your real hair because heat can damage them so curling irons, straighteners and blow dryers are a no go, as they will melt or severely damage the hair. Other factors such as sun, friction, or harsh hair products can also damage synthetic hair extensions. ",
+            "main4": "QUALITY & HOW LONG HAIR EXTENSIONS LAST",
+            "paragraph4": "Synthetic hair is cheaper than real hair, but of course with that, comes a trade-off. Because they’re made out of synthetic fibres, they do not last as long as human hair as they can easily be damaged by the above-mentioned factors (sun, heat, etc.) Generally, synthetic hair extensions last for a few months, whereas human hair extensions can last upwards of one year if they are well taken care of. Luxy Hair remy human hair extensions last for about one year on average. "
         }
     ]
 }

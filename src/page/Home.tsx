@@ -26,9 +26,6 @@ export function Home() {
                     </p>
                 </div>
                 <div className="options-in-daily-life">
-                    <Link to='/college'  >
-                        <button className="button-up">COLLEGE</button>
-                    </Link>
                     <Link to='/hair'  >
                         <button className="button-down">HAIR</button>
                     </Link>

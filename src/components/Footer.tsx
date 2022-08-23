@@ -2,7 +2,8 @@ export function Footer() {
     return (
         <div className="footer">
             <div className="term-of-use">
-                <h3>Hoxton Rcepies</h3>
+                <h3>Hey   Hey   to   Daily Life
+                </h3>
                 <ul>
                     <li>Legal Notice</li>
                     <li>Terms of Use</li>
