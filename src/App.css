@@ -461,3 +461,163 @@
     font-size: 20px;
     padding-bottom: 10px;
 }
+
+.makeup-part-1 h1 {
+    background-image: url('https://media.self.com/photos/57e00e471db118765d302bdd/8:3/w_1280,c_limit/sub-channel-beauty_makeup.jpg');
+    width: 75%;
+    height: 470px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 13%;
+    padding-top: 14%;
+}
+
+
+.makeup-loop ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60%;
+    gap: 3rem;
+    margin: 50px;
+    margin-left: 20%;
+}
+
+.makeup-loop img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.makeup-loop li {
+    width: 400px;
+    border: solid 3px rgba(128, 128, 128, 0.892);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.makeup-loop li a {
+    text-decoration: none;
+    color: black;
+}
+
+.makeup-loop h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.makeup-whole-content {
+    display: grid;
+    grid-auto-rows: auto;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.makeup-whole-content h1 {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 90px;
+    font-size: 45px;
+}
+
+.main-content-makeup img {
+    width: 900px;
+    border-radius: 30px;
+    height: 700px;
+}
+
+.each-content-whole {
+    margin: 20px;
+}
+
+.each-content h2 {
+    padding: 12px;
+    font-size: 35px;
+    font-family: 'Cardo';
+}
+
+.each-content p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.each-content img {
+    border-radius: 30px;
+    width: 400px;
+}
+
+
+.search-makeup {
+    border-radius: 50px;
+    width: 660px;
+    border: solid 2px gray;
+    margin-left: 27%;
+    margin-top: 4%;
+
+}
+
+.searching-makeup {
+    width: 550px;
+    height: 60px;
+    border: transparent;
+    background-color: transparent;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.searching-makeup :placeholder-shown {
+    font-size: 20px;
+}
+
+.search-makeup button {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: transparent;
+    background-color: rgba(213, 213, 213, 0.392);
+}
+
+.travel h1 {
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Cardo';
+}
+
+.mini-travel-blog ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60%;
+    gap: 3rem;
+    margin: 50px;
+    margin-left: 20%;
+}
+
+.mini-travel-blog img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.mini-travel-blog li {
+    width: 400px;
+    border: solid 3px rgba(128, 128, 128, 0.892);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.mini-travel-blog li a {
+    text-decoration: none;
+    color: black;
+}

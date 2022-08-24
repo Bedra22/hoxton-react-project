@@ -4,12 +4,15 @@ import { Header } from './components/Header'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Home } from './page/Home'
 import { Hair } from './page/Hair'
-import { Beauty } from './page/Beauty'
+import { MakeUp } from './page/MakeUp'
 import { Travel } from './page/Travel'
 import { Fashion } from './page/Fashion'
 import { Footer } from './components/Footer'
 import { EachChallenge } from './page/EachChallenge'
 import { EachHairCare } from './page/EachHairCare'
+import { EachMakeUp } from './page/EachMakeUp'
+import { Error } from './page/Error'
+import { EachTravel } from './page/EachTravel'
 
 function App() {
 
@@ -22,8 +25,10 @@ function App() {
         <Route path='/home/:id' element={<EachChallenge />} />
         <Route path='/hair' element={<Hair />} />
         <Route path='/hair/:id' element={<EachHairCare />} />
-        <Route path='/beauty' element={<Beauty />} />
+        <Route path='/makeup' element={<MakeUp />} />
+        <Route path='/makeup/:id' element={<EachMakeUp />} />
         <Route path='/travel' element={<Travel />} />
+        <Route path='/travel/:id' element={<EachTravel />} />
         <Route path='/fashion' element={<Fashion />} />
       </Routes>
       <Footer />

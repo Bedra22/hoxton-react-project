@@ -29,8 +29,8 @@ export function Home() {
                     <Link to='/hair'  >
                         <button className="button-down">HAIR</button>
                     </Link>
-                    <Link to='/beauty'  >
-                        <button className="button-up">BEAUTY</button>
+                    <Link to='/makeup'  >
+                        <button className="button-up">MAKEUP</button>
                     </Link>
                     <Link to='/travel'  >
                         <button className="button-down">TRAVEL</button>

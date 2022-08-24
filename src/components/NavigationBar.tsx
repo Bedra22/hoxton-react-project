@@ -17,8 +17,8 @@ export function NavigationBar() {
                         <Link to='/hair'  >
                             <li>HAIR</li>
                         </Link>
-                        <Link to='/beauty'  >
-                            <li>BEAUTY</li>
+                        <Link to='/makeup'  >
+                            <li>MAKEUP</li>
                         </Link>
                         <Link to='/travel'  >
                             <li>TRAVEL</li>
