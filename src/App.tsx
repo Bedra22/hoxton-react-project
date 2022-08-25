@@ -13,6 +13,7 @@ import { EachHairCare } from './page/EachHairCare'
 import { EachMakeUp } from './page/EachMakeUp'
 import { Error } from './page/Error'
 import { EachTravel } from './page/EachTravel'
+import { EachFashion } from './page/EachFashion'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Route path='/travel' element={<Travel />} />
         <Route path='/travel/:id' element={<EachTravel />} />
         <Route path='/fashion' element={<Fashion />} />
+        <Route path='/fashion/:id' element={<EachFashion />} />
       </Routes>
       <Footer />
     </div >

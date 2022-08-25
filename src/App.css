@@ -587,7 +587,7 @@
 
 .travel h1 {
     font-size: 50px;
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
     font-family: 'Cardo';
 }
@@ -620,4 +620,305 @@
 .mini-travel-blog li a {
     text-decoration: none;
     color: black;
+}
+
+
+.search-travel {
+    border-radius: 50px;
+    width: 660px;
+    border: solid 2px gray;
+    margin-left: 27%;
+    margin-top: 4%;
+
+}
+
+.searching-travel {
+    width: 550px;
+    height: 60px;
+    border: transparent;
+    background-color: transparent;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.searching-travel :placeholder-shown {
+    font-size: 20px;
+}
+
+.search-travel button {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: transparent;
+    background-color: rgba(213, 213, 213, 0.392);
+}
+
+.content-travel {
+    display: grid;
+    grid-auto-flow: row;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.travel-main h1 {
+    font-family: 'Cardo';
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.travel-main img {
+    width: 900px;
+    height: 700px;
+    margin-left: 20px;
+}
+
+.whole-paragraphs {
+    width: 90%;
+    margin-left: 3%;
+    padding: 10px;
+}
+
+.each-travel-content {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.each-travel-content h2 {
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.each-travel-content img {
+    width: 400px;
+    padding: 20px;
+}
+
+.fashion h1 {
+    font-family: 'Cardo';
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.each-travel-content p {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.fashion-loop ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60%;
+    gap: 3rem;
+    margin: 50px;
+    margin-left: 20%;
+}
+
+.fashion-loop img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.fashion-loop li {
+    width: 400px;
+    border: solid 3px rgba(128, 128, 128, 0.892);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.fashion-loop li a {
+    text-decoration: none;
+    color: black;
+}
+
+.fashion-loop h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.search-fashion {
+    border-radius: 50px;
+    width: 660px;
+    border: solid 2px gray;
+    margin-left: 27%;
+    margin-top: 4%;
+
+}
+
+.searching-fashion {
+    width: 550px;
+    height: 60px;
+    border: transparent;
+    background-color: transparent;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.searching-fashion :placeholder-shown {
+    font-size: 20px;
+}
+
+.search-fashion button {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: transparent;
+    background-color: rgba(213, 213, 213, 0.392);
+}
+
+.each-travel-whole {
+    width: 60%;
+    margin-left: 21%;
+}
+
+.eachFashionItem-part1 {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+}
+
+.eachFashionItem-part1 h1 {
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.eachFashionItem-part1 img {
+    padding: 30px;
+    margin-left: 35px;
+    width: 890px;
+}
+
+.eachFashionItem-content {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.eachFashionItem-content h2 {
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.eachFashionItem-content p {
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+.eachFashionItem-content img {
+    margin-left: 30px;
+}
+
+.review {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2rem;
+    background-color: #bb764bbb;
+    padding: 30px;
+}
+
+.post-review {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2rem;
+    padding: 30px;
+}
+
+.post-review h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.review-form {
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 13%;
+
+}
+
+.review-inputs {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+    width: 50%;
+    margin-left: 35%;
+}
+
+.review-inputs input {
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.review-inputs textarea {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.review-form button {
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 110px;
+    font-size: 25px;
+    border: none;
+    background-color: #69391cee;
+    color: bisque;
+}
+
+.review-form button:hover {
+    background-color: #42220e;
+}
+
+.review-answers ul {
+    display: grid;
+    grid-auto-flow: row;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 28%;
+}
+
+.review-answers li {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 20px;
+    border-bottom: solid 2px #42220e;
+}
+
+.review-answers li h2 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.review-answers li h3 {
+    font-size: 15px;
+    text-align: end;
+}
+
+.review-answers li p {
+    font-size: 20px;
+    padding: 5px;
 }

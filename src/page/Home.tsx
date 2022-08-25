@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 
 export function Home() {
     const [challenges, setChallenges] = useState([])
+    const [reviews, setreviews] = useState([])
+    const [email, setEmail] = useState([])
+    const [name, setName] = useState([])
+    const [lastName, setLastName] = useState([])
+    const [textArea, setTextArea] = useState([])
+
 
     useEffect(() => {
         fetch('http://localhost:4000/challenges')
@@ -54,6 +60,89 @@ export function Home() {
                     ))}
                 </ul>
 
+            </div>
+            <div className="review">
+                <div className="post-review">
+                    <h1>
+                        Hey Hey Clients please leave a review :)
+                    </h1>
+                    <form
+                        className="review-form"
+                        onSubmit={event => {
+                            event.preventDefault()
+
+                            let oneReview = {
+                                email,
+                                name,
+                                lastName,
+                                textArea
+                            }
+                            setEmail('')
+                            setName('')
+                            setLastName('')
+                            setTextArea('')
+
+                            setreviews([...reviews, oneReview])
+
+                        }}
+                    >
+                        <div className="review-inputs">
+                            <input
+                                type="email"
+                                placeholder="Enter your Email"
+                                onChange={event => {
+                                    setEmail(event.target.value)
+                                }}
+                                value={email}
+                                autoComplete='off'
+                            />
+                            <input
+                                type="text"
+                                placeholder="Enter your Name"
+                                onChange={event => {
+                                    setName(event.target.value)
+                                }}
+                                value={name}
+                                autoComplete='off'
+                            />
+                            <input
+                                type="text"
+                                placeholder="Enter your LastNAme"
+                                onChange={event => {
+                                    setLastName(event.target.value)
+                                }}
+                                value={lastName}
+                                autoComplete='off'
+                            />
+                            <textarea
+                                name="review"
+                                id=""
+                                cols="30"
+                                rows="10"
+                                onChange={event => {
+                                    setTextArea(event.target.value)
+                                }}
+                                value={textArea}
+                                autoComplete='off'
+                            >
+                            </textarea>
+                        </div>
+                        <button>Submit</button>
+                    </form>
+                </div>
+                <div className="review-answers">
+                    <ul>
+                        {
+                            reviews.map(item => (
+                                <li>
+                                    <h2>{item.email}</h2>
+                                    <p>{item.textArea}</p>
+                                    <h3>- {item.name} {item.lastName}</h3>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
             </div>
         </div>
     )

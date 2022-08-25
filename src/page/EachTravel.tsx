@@ -38,10 +38,48 @@ export function EachTravel() {
     }, [])
 
     return (
-        <div>
-            <h1>
-                travel {eachTravel?.id}
-            </h1>
+        <div className="content-travel">
+            <div className="travel-main">
+                <h1>{eachTravel?.title}</h1>
+                <img src={eachTravel?.image} />
+            </div>
+            <div className="whole-paragraphs">
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main1}</h2>
+                    <img src={eachTravel?.image1} />
+                    <p>{eachTravel?.paragraph1}</p>
+                </div>
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main2}</h2>
+                    <img src={eachTravel?.image2} />
+                    <p>{eachTravel?.paragraph2}</p>
+                </div>
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main3}</h2>
+                    <img src={eachTravel?.image3} />
+                    <p>{eachTravel?.paragraph3}</p>
+                </div>
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main4}</h2>
+                    <img src={eachTravel?.image4} />
+                    <p>{eachTravel?.paragraph4}</p>
+                </div>
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main5}</h2>
+                    <img src={eachTravel?.image5} />
+                    <p>{eachTravel?.paragraph5}</p>
+                </div>
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main6}</h2>
+                    <img src={eachTravel?.image6} />
+                    <p>{eachTravel?.paragraph6}</p>
+                </div>
+                <div className="each-travel-content">
+                    <h2>{eachTravel?.main7}</h2>
+                    <img src={eachTravel?.image7} />
+                    <p>{eachTravel?.paragraph7}</p>
+                </div>
+            </div>
         </div>
     )
 }
