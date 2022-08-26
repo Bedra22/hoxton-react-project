@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export function NavigationBar() {
     const [sideBar, setSideBar] = useState(false)
@@ -14,19 +14,14 @@ export function NavigationBar() {
                 <div className={sideBar ? 'navbar shows' : 'navbar'}>
                     <ul onClick={showSideBar}>
                         <h1>X</h1>
-                        <Link to='/hair'  >
-                            <li>HAIR</li>
-                        </Link>
-                        <Link to='/makeup'  >
-                            <li>MAKEUP</li>
-                        </Link>
-                        <Link to='/travel'  >
-                            <li>TRAVEL</li>
-                        </Link>
-                        <Link to='/fashion'  >
-                            <li>FASHION</li>
-                        </Link>
-
+                        <li className="link-active">
+                            <NavLink to='/hair' className='link-active-nav'>HAIR</NavLink></li>
+                        <li className="link-active">
+                            <NavLink to='/makeup' className='link-active-nav'>MAKEUP</NavLink></li>
+                        <li className="link-active">
+                            <NavLink to='/travel' className='link-active-nav'>TRAVEL</NavLink></li>
+                        <li className="link-active">
+                            <NavLink to='/fashion' className='link-active-nav'>FASHION</NavLink></li>
                     </ul>
                 </div >
             </div>

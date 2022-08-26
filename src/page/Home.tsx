@@ -5,11 +5,25 @@ export function Home() {
     const [challenges, setChallenges] = useState([])
     const [reviews, setreviews] = useState([])
     const [email, setEmail] = useState([])
-    const [name, setName] = useState([])
-    const [lastName, setLastName] = useState([])
     const [textArea, setTextArea] = useState([])
 
 
+    // function addReview(text: string) {
+
+    //     let newReview = {
+    //         email: text,
+    //         textArea: text
+    //     }
+
+
+    // }
+
+
+    useEffect(() => {
+        fetch('http://localhost:4000/reviews')
+            .then(resp => resp.json())
+            .then(reviewsFromServer => setreviews(reviewsFromServer))
+    }, [])
     useEffect(() => {
         fetch('http://localhost:4000/challenges')
             .then(resp => resp.json())
@@ -70,16 +84,24 @@ export function Home() {
                         className="review-form"
                         onSubmit={event => {
                             event.preventDefault()
+                            fetch(`http://localhost:4000/reviews`, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({
+                                    email: event.target.email.value,
+                                    textArea: event.target.review.value
+                                })
+                            })
+                                .then(resp => resp.json())
+                                .then(newReviewFromServer => setreviews([...reviews, newReviewFromServer]))
 
                             let oneReview = {
                                 email,
-                                name,
-                                lastName,
                                 textArea
                             }
                             setEmail('')
-                            setName('')
-                            setLastName('')
                             setTextArea('')
 
                             setreviews([...reviews, oneReview])
@@ -89,6 +111,7 @@ export function Home() {
                         <div className="review-inputs">
                             <input
                                 type="email"
+                                name="email"
                                 placeholder="Enter your Email"
                                 onChange={event => {
                                     setEmail(event.target.value)
@@ -96,27 +119,8 @@ export function Home() {
                                 value={email}
                                 autoComplete='off'
                             />
-                            <input
-                                type="text"
-                                placeholder="Enter your Name"
-                                onChange={event => {
-                                    setName(event.target.value)
-                                }}
-                                value={name}
-                                autoComplete='off'
-                            />
-                            <input
-                                type="text"
-                                placeholder="Enter your LastNAme"
-                                onChange={event => {
-                                    setLastName(event.target.value)
-                                }}
-                                value={lastName}
-                                autoComplete='off'
-                            />
                             <textarea
                                 name="review"
-                                id=""
                                 cols="30"
                                 rows="10"
                                 onChange={event => {
@@ -137,7 +141,6 @@ export function Home() {
                                 <li>
                                     <h2>{item.email}</h2>
                                     <p>{item.textArea}</p>
-                                    <h3>- {item.name} {item.lastName}</h3>
                                 </li>
                             ))
                         }

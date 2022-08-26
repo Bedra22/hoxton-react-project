@@ -11,7 +11,6 @@ import { Footer } from './components/Footer'
 import { EachChallenge } from './page/EachChallenge'
 import { EachHairCare } from './page/EachHairCare'
 import { EachMakeUp } from './page/EachMakeUp'
-import { Error } from './page/Error'
 import { EachTravel } from './page/EachTravel'
 import { EachFashion } from './page/EachFashion'
 

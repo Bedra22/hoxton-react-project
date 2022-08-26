@@ -37,16 +37,6 @@
     text-decoration: none;
 }
 
-.navbar li {
-    padding: 30px;
-    border-bottom: solid 1px #af7057b2;
-}
-
-.navbar li:hover {
-    background-color: rgba(59, 26, 13, 0.996);
-    border-radius: 30px;
-}
-
 .navbar h1 {
     padding-top: 20px;
     margin-left: 130px;
@@ -921,4 +911,25 @@
 .review-answers li p {
     font-size: 20px;
     padding: 5px;
+}
+
+.link-active .active {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.link-active {
+    padding: 30px;
+}
+
+
+.link-active-nav {
+    padding: 30px;
+    border-bottom: solid 1px #af7057b2;
+}
+
+.link-active-nav:hover {
+    background-color: rgba(59, 26, 13, 0.996);
+    border-radius: 30px;
 }
