@@ -137,7 +137,7 @@ export function Home() {
                 <div className="review-answers">
                     <ul>
                         {
-                            reviews.map(item => (
+                            reviews.reverse().map(item => (
                                 <li>
                                     <h2>{item.email}</h2>
                                     <p>{item.textArea}</p>
